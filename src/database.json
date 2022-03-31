@@ -1,0 +1,108 @@
+{
+    "products": [
+        {
+            "id":0,
+            "title":"Box",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRktq2xDyRwWdpUZUzCR-VZT9BHNB4EDq3mEg&usqp=CAU",
+            "price":10,
+            "description":"Laser engraved box",
+            "type":"laser"
+        },
+        {
+            "id":1,
+            "title":"plaque",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":5,
+            "description":"Laser engraved plaque",
+            "type":"laser"
+        },
+        {
+            "id":2,
+            "title":"coaster",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":5,
+            "description":"Laser engraved coaster",
+            "type":"laser"
+        },
+        {
+            "id":3,
+            "title":"Custom designed",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":10,
+            "description":"Your own custom designed water bottle",
+            "type":"water bottle"
+        },
+        {
+            "id":4,
+            "title":"YB Water Bottle",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":3,
+            "description":"YB water bottle",
+            "type":"water bottle"
+        },
+        {
+            "id":5,
+            "title":"Green Water Bottle",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":5,
+            "description":"Green colored water bottle",
+            "type":"water bottle"
+        },
+        {
+            "id":6,
+            "title":"AYW Shirt",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":10,
+            "description":"Shirt designed by our students",
+            "type":"shirts"
+        },
+        {
+            "id":7,
+            "title":"AYW Shirt",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":10,
+            "description":"Shirt designed by our students",
+            "type":"shirts"
+        },
+        {
+            "id":8,
+            "title":"AYW Shirt",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":10,
+            "description":"Shirt designed by our students",
+            "type":"shirts"
+        },
+        {
+            "id":9,
+            "title":"Custom Design Shirt",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":15,
+            "description":"Custom Designed Shirt With Your Logo",
+            "type":"shirts"
+        },
+        {
+            "id":10,
+            "title":"Custom Design Shirt",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":15,
+            "description":"Custom Designed Shirt With Your Logo",
+            "type":"shirts"
+        },
+        {
+            "id":11,
+            "title":"MLK Shirt",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":15,
+            "description":"MLK shirt designed by our students",
+            "type":"shirts"
+        },
+        {
+            "id":12,
+            "title":"Custom Design Shirt",
+            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
+            "price":15,
+            "description":"Custom Designed Shirt Made By A Student",
+            "type":"shirts"
+        }
+    ]
+}
