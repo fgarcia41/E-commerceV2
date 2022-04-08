@@ -7,16 +7,18 @@ class Products extends React.Component {
     const products = data.products;
 
     return (
-      <main>
-        <section className="best-selling">
+      <main className="grid-container">
+        <section className="grid-container">
           <h1>Laser Engraved Items</h1>
-          {products.map((product) => {
-            if (product.type === "laser") {
-              return <Product key={product.id} data={product} />;
-            }
-          })}
+          <div className="product-container">
+            {products.map((product) => {
+              if (product.type === "laser") {
+                return <Product key={product.id} data={product} />;
+              }
+            })}
+          </div>
         </section>
-        <section className="best-selling">
+        <section className="grid-container">
           <h1>Water Bottles</h1>
           {products.map((product) => {
             if (product.type === "water bottle") {
@@ -24,7 +26,7 @@ class Products extends React.Component {
             }
           })}
         </section>
-        <section className="best-selling">
+        <section className="grid-container">
           <h1>Shirts</h1>
           {products.map((product) => {
             if (product.type === "shirts") {

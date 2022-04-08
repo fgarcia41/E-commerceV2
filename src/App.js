@@ -1,17 +1,15 @@
-import Home from './pages/Home';
-import Products from './pages/Products';
-import Contact from './pages/Contact';
+import Home from "./pages/Home";
+import Products from "./pages/Products";
+import Contact from "./pages/Contact";
 
-import Header from './components/Header';
-import Footer from './components/Footer';
-import mysql from 'mysql2'
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import './App.css';
+import "./App.css";
 
 function App() {
-
   // var con = mysql.createConnection({
   //   host: "localhost",
   //   user: "root",

@@ -46,9 +46,7 @@
 }
 
 .img-container {
-  height: 50%;
   margin: 25px auto;
-  width: 50%;
 }
 
 .best-selling h1 {
@@ -66,9 +64,16 @@
 .grid-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.product-container {
+  display:flex;
+  justify-content: space-between;
 }
 
 .grid-container .flex {
@@ -83,8 +88,14 @@
 }
 
 .flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  padding: 15px;
+  border: 1px solid #000;
   margin-bottom: 20px;
+  margin: 10px 5px 10px;
 }
 
 .flex h2 {
