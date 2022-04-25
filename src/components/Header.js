@@ -4,9 +4,9 @@ class Header extends React.Component {
   render() {
     return (
       <div className="topnav">
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="contact.html">Contact</a>
+        <a href="/">Home</a>
+        <a href="products">Products</a>
+        <a href="contact">Contact</a>
       </div>
     );
   }

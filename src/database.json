@@ -95,14 +95,6 @@
             "price":15,
             "description":"MLK shirt designed by our students",
             "type":"shirts"
-        },
-        {
-            "id":12,
-            "title":"Custom Design Shirt",
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEawvCDushZtpqzwF3JlugAkmvrIcsrnpgYw&usqp=CAU",
-            "price":15,
-            "description":"Custom Designed Shirt Made By A Student",
-            "type":"shirts"
         }
     ]
 }

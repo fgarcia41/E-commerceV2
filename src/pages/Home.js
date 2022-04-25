@@ -7,7 +7,7 @@ class Home extends React.Component {
         <section className="best-selling">
           <h1>Best Selling</h1>
           <p>Shop our customers favorite items</p>
-          <div className="grid-container">
+          <div className="product-container">
             <div className="flex">
               <div className="img-container">
                 <img

@@ -3,11 +3,13 @@ import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 
 import Header from "./components/Header";
+import { SliderData } from "./components/SliderData";
 import Footer from "./components/Footer";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
+import ImageSlider from "./components/ImageSlider";
 
 function App() {
   // var con = mysql.createConnection({
@@ -27,6 +29,7 @@ function App() {
     <div>
       <Router>
         <Header />
+        <ImageSlider slides={SliderData} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />

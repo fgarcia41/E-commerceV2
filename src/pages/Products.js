@@ -7,9 +7,9 @@ class Products extends React.Component {
     const products = data.products;
 
     return (
-      <main className="grid-container">
-        <section className="grid-container">
-          <h1>Laser Engraved Items</h1>
+      <main>
+        <section>
+          <h1 className="product-title">Laser Engraved Items</h1>
           <div className="product-container">
             {products.map((product) => {
               if (product.type === "laser") {
@@ -18,21 +18,25 @@ class Products extends React.Component {
             })}
           </div>
         </section>
-        <section className="grid-container">
-          <h1>Water Bottles</h1>
-          {products.map((product) => {
-            if (product.type === "water bottle") {
-              return <Product key={product.id} data={product} />;
-            }
-          })}
+        <section>
+          <h1 className="product-title">Water Bottles</h1>
+          <div className="product-container">
+            {products.map((product) => {
+              if (product.type === "water bottle") {
+                return <Product key={product.id} data={product} />;
+              }
+            })}
+          </div>
         </section>
-        <section className="grid-container">
-          <h1>Shirts</h1>
-          {products.map((product) => {
-            if (product.type === "shirts") {
-              return <Product key={product.id} data={product} />;
-            }
-          })}
+        <section>
+          <h1 className="product-title">Shirts</h1>
+          <div className="product-container">
+            {products.map((product) => {
+              if (product.type === "shirts") {
+                return <Product key={product.id} data={product} />;
+              }
+            })}
+          </div>
         </section>
       </main>
     );
